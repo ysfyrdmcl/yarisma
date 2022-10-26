@@ -4,50 +4,50 @@ export default function index() {
   return (
     <>
     
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 islemcontainer">
-                <div class="row siralama">
+    <div className="container-fluid">
+        <div className="row">
+            <div className="col-2 islemcontainer">
+                <div className="row siralama">
                     <h2>Sıralama</h2>
-                    <div class="order shadow-sm">
+                    <div className="order shadow-sm">
                         <img alt="" src="/svg/cup-trophy-svgrepo-com.svg" />
                         Birinci Olan
                     </div>
-                    <div class="order shadow-sm">
+                    <div className="order shadow-sm">
                         <img alt="" src="/svg/cup-trophy-svgrepo-com.svg" />
                         İkinci Olan
                     </div>
-                    <div class="order shadow-sm">
+                    <div className="order shadow-sm">
                         <img alt="" src="/svg/cup-trophy-svgrepo-com.svg" />
                         Üçüncü Olan
                     </div>
                     
                 </div>
-                <div class="row islembutonlari">
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-success" type="button">Yarışmaya Başla</button>
-                        <button class="btn btn-danger" type="button">Yarışmayı Bitir</button>
-                        <button class="btn btn-warning" type="button">Yeni Soru</button>
+                <div className="row islembutonlari">
+                    <div className="d-grid gap-2">
+                        <button className="btn btn-success" type="button">Yarışmaya Başla</button>
+                        <button className="btn btn-danger" type="button">Yarışmayı Bitir</button>
+                        <button className="btn btn-warning" type="button">Yeni Soru</button>
                         
                       </div>
                 </div>
             </div>
-            <div class="col-6 sorucevapcontainer">
-                <div class="row"></div>
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col"></div>
+            <div className="col-6 sorucevapcontainer">
+                <div className="row"></div>
+                <div className="row">
+                    <div className="col"></div>
+                    <div className="col"></div>
                 </div>
             </div>
-            <div class="col-3 katilimcilarcontainer">
-                <div class="row">
+            <div className="col-3 katilimcilarcontainer">
+                <div className="row">
                     <h2>KATILIMCI LİSTESİ</h2>
                 </div>
-                <div class="row">
-                    <div class="col-4 yarismaci">
+                <div className="row">
+                    <div className="col-4 yarismaci">
                         <img alt=""  src="https://randomuser.me/api/portraits/men/75.jpg" />
                         <p><small>Ahmet KUŞ</small></p>
-                        <div class="online"></div>
+                        <div className="online"></div>
                     </div>
 
                 </div>

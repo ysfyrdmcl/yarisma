@@ -22,7 +22,9 @@ export default function Index() {
         <input type="text" name="username" onChange={(text)=>setUsername(text.target.value)} placeholder="Username" />
         <input type="password" name="password" onChange={(text)=>setPassword(text.target.value)} placeholder="Password" />
         <input className="login" type="submit" value="Log in" onClick={doLogin}/>
+        <a className="error" href="/register">Register</a>
         <p><label className="error"/></p>
+        
        </div>   
   );
 }
